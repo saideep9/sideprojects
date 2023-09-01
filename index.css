@@ -1,0 +1,164 @@
+.parent{
+    background-color: rgb(252, 249, 249);
+    height:auto;
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+}
+.first{
+    margin:20px;
+    width:300px;
+    background-color: #ffffff;
+}
+.browse{
+    background-color: #ffffff;
+    color:rgb(253, 33, 33);
+    border-color: rgb(253, 33, 33);
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+h1{
+    margin:20px;
+}
+.divone{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+.divtwo{
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+}
+.dropup{
+    rotate: -90deg;
+    color:gray;
+    margin:8px;
+}
+.clear{
+    color:gray;
+    margin:8px;
+}
+.explore{
+    color:rgb(253, 33, 33);
+    margin:8px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h5{
+    color: lightgray;
+    margin:8px;
+}
+.start{
+    display: flex;
+    flex-direction: row;
+}
+.btn1{
+    margin:10px;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    color:rgb(253, 33, 33);
+    border-color: rgb(197, 194, 194);
+    border-width:thin;
+}
+.btn2{
+    margin:10px;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    color:rgb(253, 33, 33);
+    border-radius: 20px;
+    border-color: rgb(197, 194, 194);
+    border-width:1px;
+}
+button:hover{
+    background-color: rgb(253, 33, 33);
+    color:#ffffff;
+}
+
+.wrap{
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:12px;
+    border-radius: 10px;
+    margin:10px;
+
+}
+
+h4{
+    margin:8px;
+}
+.imgcontainer{
+    height:292px;
+    width:200px;
+    border-radius: 10px; 
+}
+
+.movies{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.movtemp{
+    margin:10px;
+}
+.sub{
+    display:flex;
+    flex-direction:row;
+    background-color: black;
+    justify-content: space;
+    object-fit: cover;
+    border-radius: 0px 0px 10px 10px;
+}
+.likes{
+    color:#ffffff
+}
+.title{
+    color:gray
+}
+
+.movimg{
+    background-image: url("https://livecities.in/wp-content/uploads/2023/07/Kushi-2023-cast-crew.jpg");
+    height:250px;
+    width:200px;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.movimg2{
+    background-image: url("https://media5.bollywoodhungama.in/wp-content/uploads/2023/08/Jawan.jpg");
+    height:250px;
+    width:200px;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    background-position:center center;
+    background-repeat: no-repeat;
+    
+}
+.movimg3{
+    background-image: url("https://wallpaperaccess.com/full/9041027.jpg");
+    height:250px;
+    width:200px;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.movimg4{
+    background-image: url("https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00340111-bucsngjtyp-portrait.jpg");
+    height:250px;
+    width:200px;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    background-position:center center;
+    background-repeat: no-repeat;
+
+}
